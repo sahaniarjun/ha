@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 75.0.3770 (Linux 0.0.0)" package="" timestamp="2019-10-22T18:48:34" id="0" hostname="workspacefs1lpsznqtvjs6tk.rba-74cd9956b8-7bfpk" tests="9" errors="1" failures="9" time="0.071">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/75.0.3770.100 Safari/537.36"/>
+  </properties>
+  <testcase name="dictionaryController Testing synonym" time="0.015" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+    at window.inject.angular.mock.inject (bower_components/angular-mocks/angular-mocks.js:3422:25)
+    at Suite.&lt;anonymous&gt; (test/unit/apiFac.spec.js:7:16)
+    at &lt;Jasmine&gt;
+    at test/unit/apiFac.spec.js:1:1
+</failure>
+    <failure type="">TypeError: Cannot read property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/apiFac.spec.js:20:12)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="dictionaryController result_word should contain searched text, items should contain list of response data and search_word should be cleared " time="0.008" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+    at window.inject.angular.mock.inject (bower_components/angular-mocks/angular-mocks.js:3422:25)
+    at Suite.&lt;anonymous&gt; (test/unit/index.spec.js:7:14)
+    at &lt;Jasmine&gt;
+    at test/unit/index.spec.js:1:1
+</failure>
+    <failure type="">TypeError: Cannot read property 'whenGET' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:20:18)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot set property 'search_word' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:56:22)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="dictionaryController result_word should have empty string, items should contain empty list of response data and search_word should not be cleared" time="0.006" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'whenGET' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:20:18)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot set property 'search_word' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:69:25)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="dictionaryController get_content function to be defined" time="0.009" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'whenGET' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:20:18)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'get_content' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:32:19)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="dictionaryController search function to be defined" time="0.006" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'whenGET' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:20:18)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'search' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:37:19)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="dictionaryController search function should call get_content()" time="0.006" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'whenGET' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:20:18)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">Error: &lt;spyOn&gt; : could not find an object to spy upon for get_content()
+Usage: spyOn(&lt;object&gt;, &lt;methodName&gt;)
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:81:11)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="dictionaryController search function should initialize clicked word to search_word" time="0.01" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'whenGET' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:20:18)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">Error: &lt;spyOn&gt; : could not find an object to spy upon for get_content()
+Usage: spyOn(&lt;object&gt;, &lt;methodName&gt;)
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:88:11)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="dictionaryController synonym function to be defined" time="0.005" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'whenGET' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:20:18)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'get_content' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:41:12)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="dictionaryController synonym fucntion should be called with search text" time="0.006" classname="dictionaryController">
+    <failure type="">TypeError: Cannot set property 'synonym' of undefined
+    at &lt;Jasmine&gt;
+    at Object.&lt;anonymous&gt; (js/apiFac.js:4:20)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at Object.enforcedReturnValue [as $get] (bower_components/angular/angular.js:4976:37)
+    at Object.invoke (bower_components/angular/angular.js:5141:19)
+    at bower_components/angular/angular.js:4930:37
+    at getService (bower_components/angular/angular.js:5084:32)
+    at injectionArgs (bower_components/angular/angular.js:5109:58)
+    at Object.invoke (bower_components/angular/angular.js:5133:18)
+    at UserContext.WorkFn (bower_components/angular-mocks/angular-mocks.js:3459:20)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read property 'whenGET' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:20:18)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot set property 'search_word' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (test/unit/index.spec.js:45:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 75.0.3770 (Linux 0.0.0) LOG: 'WARNING: Tried to load AngularJS more than once.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
