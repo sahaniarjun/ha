@@ -1,0 +1,66 @@
+
+#title{
+    height: 50px;
+    background-color: #667292;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    
+}
+
+#content{
+margin-right: 10px;
+margin-left: 2px;
+margin-top: 10px;
+}
+.card_word{
+    box-shadow: 5px 5px 10px 5px #667292;
+    padding-left:5px;
+    transition: 0.3s;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.result_content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card_word:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.card {
+    box-shadow: 10px 5px 10px 10px rgba(0,0,0,0.2);
+    padding-left:5px;
+    transition: 0.3s;
+    background-color: #fff;
+    margin-right: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+#top_content{
+   height: 35%;
+   margin-left: 5px;
+   padding-top: 75px;
+    border-color: #abbef3;
+    border-bottom-style: outset;
+    border-top-style: dashed;
+    width:100%;
+    background-color: #d8e0f5;
+       
+}
+#word_to_be_searched{
+width: 30%;
+margin-left: 35%;
+}
+.search{
+    margin-left: 35%;
+    margin-top: 10px;
+    background-color: #667292 ;
+    color:white;
+
+}
+

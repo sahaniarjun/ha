@@ -1,0 +1,19 @@
+{
+    "links":["https://api.wordnik.com/v4/word.json/good/relatedWords?useCanonical=false&relationshipTypes=synonym&limitPerRelationshipType=10&api_key=c23b746d074135dc9500c0a61300a3cb7647e53ec2b9b658e",
+    "https://api.wordnik.com/v4/word.json/empty/relatedWords?useCanonical=false&relationshipTypes=synonym&limitPerRelationshipType=10&api_key=c23b746d074135dc9500c0a61300a3cb7647e53ec2b9b658e"],
+   "response": {
+    "relationshipType": "synonym",
+    "words": [
+      "serviceable",
+      "useful",
+      "fit",
+      "excellent",
+      "admirable",
+      "commendable",
+      "virtuous",
+      "pious",
+      "religious",
+      "kind"
+    ]
+  }
+}

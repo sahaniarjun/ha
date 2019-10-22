@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+    
+    <div id="title">
+        Dictionary App
+    </div>
+
+</head>
+
+<body ng-app="dictionaryApp" ng-controller="dictionaryController">
+
+    <div id="content">
+        <div id="top_content">
+            <div id="word_to_be_searched">
+                <h5> Enter the word:</h5>
+                <input type="text" class="form-control" ng-model="search_word">
+
+                <button class="btn search"  ng-click="get_content()">Search</button>
+
+            </div>
+        </div>
+        <br>
+        <div class="result_content">
+          <h2>  {{result_word}}</h2>
+            <h4>Synonym</h4>
+            <div  class="card_word">            
+             <button  class="btn btn-link" ng-repeat="item in items" ng-click="search(item)">{{item}}</button></h4>
+            </div><br>
+       
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="js/index.js"></script>
+<script src="js/apiFac.js"></script>
+</html>
